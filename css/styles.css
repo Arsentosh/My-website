@@ -3,6 +3,22 @@ body {
   background-color: whitesmoke;
 }
 
+.logo {
+  color: black;
+}
+
+a:hover {
+  color: tomato;
+}
+
+a:focus {
+  color: tomato;
+}
+
+a:active {
+  color: teal;
+}
+
 /* Shift the heading text to the left, by default it is centered */
 table caption {
   text-align: left;
