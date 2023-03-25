@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+
+/* Shift the heading text to the left, by default it is centered */
+table caption {
+  text-align: left;
+}
+
+/* We "collapse" the frames of adjacent cells */
+table {
+  border-collapse: collapse;
+}
+
+/* 
+  Add a border and padding to the cells, the distance from the content to the border.
+  To control the vertical position, the caption-side property is used.
+*/
+table th,
+table td {
+  padding: 12px;
+  border: 2px solid #5d5d5d;
+}
+
+/*header {
+  background-color: rgb(150, 185, 219);
+}
+
+footer {
+  background-color: lightcyan;
+}
