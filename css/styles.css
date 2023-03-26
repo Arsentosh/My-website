@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255)
+  ;
 }
 
 .logo {
@@ -9,6 +10,7 @@ body {
 
 a:hover {
   color: tomato;
+  font-size: larger;
 }
 
 a:focus {
