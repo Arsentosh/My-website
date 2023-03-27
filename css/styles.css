@@ -9,9 +9,23 @@ body {
   color: black;
 }
 
+h2 {
+  display: flex;
+  /*   */
+
+  /* justify-content: center; */
+
+}
+
+header
+
 a:hover {
   color: tomato;
-  font-size: larger;
+}
+
+a.logo:hover {
+  color: tomato;
+  font-size: 24;
 }
 
 a:focus {
