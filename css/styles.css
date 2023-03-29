@@ -1,23 +1,29 @@
 body {
-  font-family: 'Open Sans', sans-serif;;
-  background-color: rgb(255, 255, 255)
-  ;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(255, 255, 255);
 }
 
 .logo {
-  font-family: 'Kurale';
+  font-family: "Kurale";
   color: black;
 }
 
 h2 {
   display: flex;
+  background-color: lightgreen;
   /*   */
 
   /* justify-content: center; */
-
 }
 
-header
+header {
+  background-color: lightblue;
+}
+
+.reason-for-writing-website {
+  font-family: "Delicious Handrawn";
+  font-size: larger;
+}
 
 a:hover {
   color: tomato;
@@ -37,7 +43,7 @@ a:active {
 }
 
 .pickle {
-  color: tomato;
+  color: teal;
 }
 
 /* footer {
@@ -65,10 +71,13 @@ table td {
   border: 2px solid #5d5d5d;
 }
 
-/*header {
-  background-color: rgb(150, 185, 219);
+footer {
+  background-color: lightblue;
+  font-family: "Delicious Handrawn";
+  font-size: larger;
 }
 
-footer {
-  background-color: lightcyan;
+.contacts {
+  font-family: "Open Sans", sans-serif;
+  font-size: smaller;
 }
