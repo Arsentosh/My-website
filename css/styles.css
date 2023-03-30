@@ -20,10 +20,10 @@ header {
   background-color: lightblue;
 }
 
-.reason-for-writing-website {
+/* .reason-for-writing-website {
   font-family: "Delicious Handrawn";
   font-size: larger;
-}
+} */
 
 a:hover {
   color: tomato;
@@ -73,11 +73,11 @@ table td {
 
 footer {
   background-color: lightblue;
-  font-family: "Delicious Handrawn";
-  font-size: larger;
+  /* font-family: "Delicious Handrawn";
+  font-size: larger; */
 }
 
-.contacts {
+/* .contacts {
   font-family: "Open Sans", sans-serif;
   font-size: smaller;
-}
+} */
