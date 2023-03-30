@@ -10,14 +10,14 @@ body {
 
 h2 {
   display: flex;
-  background-color: lightgreen;
+  background-color: #1aeaff;
   /*   */
 
   /* justify-content: center; */
 }
 
 header {
-  background-color: lightblue;
+  background-color: #1affa1;
 }
 
 /* .reason-for-writing-website {
@@ -72,7 +72,7 @@ table td {
 }
 
 footer {
-  background-color: lightblue;
+  background-color: #1affa1;
   /* font-family: "Delicious Handrawn";
   font-size: larger; */
 }
