@@ -29,9 +29,12 @@ a:hover {
   color: tomato;
 }
 
+.logo {
+  font-size: 48px;
+}
+
 a.logo:hover {
   color: tomato;
-  font-size: 24;
 }
 
 a:focus {
