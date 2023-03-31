@@ -21,8 +21,8 @@ h2 {
 
 header {
   background-color: #1affa1;
-  justify-content: center;
-  display: flex;
+  /* justify-content: center;
+  display: flex; */
 }
 
 /* .reason-for-writing-website {
