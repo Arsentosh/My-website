@@ -12,10 +12,8 @@ body {
 }
 
 h2 {
-  display: flex;
   background-color: #1aeaff;
-  /*   */
-
+  /* display: flex;  */
   /* justify-content: center; */
 }
 
