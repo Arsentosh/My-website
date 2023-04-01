@@ -8,8 +8,8 @@ body {
   font-family: "Kurale";
   color: black;
   text-decoration: wavy;
-  justify-content: center;
-  display: flex;
+  /* justify-content: center;
+  display: flex; */
 }
 
 .logo {
@@ -19,15 +19,24 @@ body {
 header {
   background-color: #4cffb4;
   width: 100%;
+  /* position: unset; */
   /* justify-content: center;
   display: flex; */
 }
-
+/* 
 .menu {
   list-style: none;
   position: absolute;
   top: 10px;
   right: 100px;
+} */
+
+.menu {
+  list-style: none;
+}
+
+.reason-for-writing-website {
+  background-color: #a1ffd8;
 }
 
 h2 {
