@@ -1,26 +1,31 @@
 body {
   font-family: "Open Sans", sans-serif;
+  padding: 16px;
   background-color: rgb(255, 255, 255);
 }
 
 .logo {
   font-family: "Kurale";
   color: black;
-  text-decoration: none;
+  text-decoration: wavy;
+  /* justify-content: center;
+  display: flex; */
+}
+
+.logo {
+  font-size: 48px;
+}
+
+header {
+  background-color: #4cffb4;
   /* justify-content: center;
   display: flex; */
 }
 
 h2 {
-  background-color: #1aeaff;
+  background-color: #4cedff;
   /* display: flex;  */
   /* justify-content: center; */
-}
-
-header {
-  background-color: #1affa1;
-  /* justify-content: center;
-  display: flex; */
 }
 
 /* .reason-for-writing-website {
@@ -28,12 +33,16 @@ header {
   font-size: larger;
 } */
 
-a:hover {
-  color: tomato;
+.inspiration {
+  text-decoration: dotted;
 }
 
-.logo {
-  font-size: 48px;
+.dictionary {
+  background-color: #4cffb4;
+}
+
+a:hover {
+  color: tomato;
 }
 
 a.logo:hover {
@@ -52,9 +61,20 @@ a:active {
   color: teal;
 }
 
-/* footer {
-  font-size: 20px;
-  font-family: 'Delicious Handrawn';
+.about-me {
+  background-color: #1affa0;
+}
+
+footer {
+  background-color: #a1ffd8;
+
+  /* font-family: "Delicious Handrawn";
+  font-size: larger; */
+}
+
+/* .contacts {
+  font-family: "Open Sans", sans-serif;
+  font-size: smaller;
 } */
 
 /* Shift the heading text to the left, by default it is centered */
@@ -76,14 +96,3 @@ table td {
   padding: 12px;
   border: 2px solid #5d5d5d;
 }
-
-footer {
-  background-color: #1affa1;
-  /* font-family: "Delicious Handrawn";
-  font-size: larger; */
-}
-
-/* .contacts {
-  font-family: "Open Sans", sans-serif;
-  font-size: smaller;
-} */
