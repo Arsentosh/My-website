@@ -57,6 +57,9 @@
             isBreak = true;
             timerDisplay.innerHTML = "5:00";
           }
+          // play a pop sound
+          var audio = new Audio("pop.mp3.wav");
+          audio.play();
         } else {
           timerDisplay.innerHTML =
             (minutes < 10 ? "0" : "") +
