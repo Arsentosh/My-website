@@ -1,3 +1,7 @@
+:root {
+  color: var(#b4ffe0);
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   padding: 0 16 16 16px;
@@ -6,10 +10,19 @@ body {
 
 .logo {
   font-family: "Kurale";
-  color: black;
+  color: #5a4cff;
   text-decoration: wavy;
   /* justify-content: center;
   display: flex; */
+}
+
+li {
+  color: #161d2a;
+}
+
+b {
+  color: #161d2a;
+  background-color: #b5ffaa;
 }
 
 .logo {
@@ -17,7 +30,7 @@ body {
 }
 
 header {
-  background-color: #4cffb4;
+  background-color: #c2f9ff;
   width: 100%;
   /* position: unset; */
   /* justify-content: center;
@@ -36,11 +49,11 @@ header {
 }
 
 .reason-for-writing-website {
-  background-color: #a1ffd8;
+  background-color: #c7ffe8;
 }
 
 h2 {
-  background-color: #4cedff;
+  background-color: #bdf7ff;
   /* display: flex;  */
   /* justify-content: center; */
 }
@@ -56,7 +69,7 @@ h2 {
 
 .dictionary {
   background-color: #4cffb4;
-  width: 5em;
+  width: 4.8em;
 }
 
 a:hover {
