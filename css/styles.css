@@ -99,16 +99,20 @@ a:active {
   color: teal;
 }
 
+.my-english-project-item {
+  color: rgba(255, 255, 255, 0);
+}
+
 .pickle {
   color: teal;
 }
 
 .about-me {
-  background-color: #1affa0;
+  background-color: #a1ffd8;
 }
 
 footer {
-  background-color: #a1ffd8;
+  background-color: #c7ffe8;
 
   /* font-family: "Delicious Handrawn";
   font-size: larger; */
