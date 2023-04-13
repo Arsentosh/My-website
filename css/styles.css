@@ -12,8 +12,8 @@ body {
   font-family: "Kurale";
   color: #161d2a;
   text-decoration: wavy;
-  /* justify-content: center;
-  display: flex; */
+  justify-content: center;
+  display: flex;
 }
 
 li {
@@ -27,6 +27,7 @@ b {
 
 .logo {
   font-size: 48px;
+  display: inline-flex;
 }
 
 .top {
@@ -47,6 +48,15 @@ header {
   /* justify-content: center;
   display: flex; */
 }
+
+.header-item {
+  /* display: inline-flex;
+  gap: 40px;
+  height: 100px;
+  align-items: center;
+  padding-right: 24px; */
+}
+
 /* 
 .menu {
   list-style: none;
@@ -65,8 +75,8 @@ header {
 
 h2 {
   background-color: #bdf7ff;
-  /* display: flex;  */
-  /* justify-content: center; */
+  display: flex;
+  justify-content: center;
 }
 
 /* .reason-for-writing-website {
@@ -113,6 +123,8 @@ a:active {
 
 button {
   background-color: #a1c3ff;
+  display: flex;
+  justify-content: right;
 }
 
 footer {
