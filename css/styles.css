@@ -4,8 +4,9 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  padding: 0 16 16 16px;
+  margin: 16px;
   background-color: rgb(255, 255, 255);
+  font-size: 18px;
 }
 
 .logo {
@@ -14,6 +15,7 @@ body {
   text-decoration: wavy;
   justify-content: center;
   display: flex;
+  font-size: larger;
 }
 
 li {
@@ -26,7 +28,7 @@ b {
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 50px;
   display: inline-flex;
 }
 
@@ -77,6 +79,7 @@ h2 {
   background-color: #bdf7ff;
   display: flex;
   justify-content: center;
+  font-size: 30px;
 }
 
 /* .reason-for-writing-website {
@@ -132,6 +135,11 @@ footer {
 
   /* font-family: "Delicious Handrawn";
   font-size: larger; */
+}
+
+section {
+  padding: 8px;
+  flex: 4px;
 }
 
 /* .contacts {
