@@ -96,6 +96,10 @@ h2 {
   width: 4.8em;
 }
 
+/* .chess {
+  background-image: url("https://cdn.hswstatic.com/gif/chess-4.jpg");
+} */
+
 a:hover {
   color: tomato;
 }
