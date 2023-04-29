@@ -3,19 +3,20 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   margin: 16px;
   background-color: rgb(255, 255, 255);
   font-size: 18px;
 }
 
 .logo {
-  font-family: "Kurale";
+  font-family: "Ubuntu";
   color: #161d2a;
   text-decoration: wavy;
   justify-content: center;
   display: flex;
-  font-size: larger;
+  font-size: 50px;
+  display: inline-flex;
 }
 
 li {
@@ -27,9 +28,8 @@ b {
   background-color: #b5ffaa;
 }
 
-.logo {
-  font-size: 50px;
-  display: inline-flex;
+.logo:hover {
+  color: #161d2a;
 }
 
 .top {
