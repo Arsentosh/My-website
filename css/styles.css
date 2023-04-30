@@ -109,8 +109,7 @@ a:hover {
 }
 
 a.logo:hover {
-  color: tomato;
-}
+  color: rgb(88, 88, 88);}
 
 a:focus {
   color: tomato;
